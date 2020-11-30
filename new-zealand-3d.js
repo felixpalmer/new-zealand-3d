@@ -34,6 +34,7 @@ function loadPark( feature ) {
   const name = feature.properties.name;
   const [longitude, latitude] = feature.geometry.coordinates;
   Procedural.displayLocation( { latitude, longitude } );
+  document.getElementById( 'title' ).innerHTML = name;
 }
 
 fetch( 'parks.geojson' )
