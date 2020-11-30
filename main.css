@@ -56,17 +56,19 @@ h2 {
 }
 
 #park-list-overlay h1 {
-  position: initial;
+  position: relative;
   width: 100%;
-  text-align: center;
+  text-align: right;
+  top: 30px;
+  right: 10px;
   font-size: 28px;
 }
 
 #park-list-overlay h2 {
+  position: absolute;
   font-size: 12px;
-  top: 40px;
-  width: 48%;
-  transform: translateX(105%);
+  top: 28px;
+  right: 10px;
 }
 
 #park-list {
