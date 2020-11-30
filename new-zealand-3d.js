@@ -29,7 +29,13 @@ Procedural.setUserLocationControlVisible( true );
 Procedural.setRotationControlVisible( true );
 Procedural.setZoomControlVisible( true );
 
-// Load in Fiordland
-Procedural.displayLocation( {
-  latitude: -45.38205472052983, longitude: 167.3423767089843
-} );
+// Define function for loading a given national park
+function loadPark( feature ) {
+  const name = feature.properties.name;
+  const [longitude, latitude] = feature.geometry.coordinates;
+  Procedural.displayLocation( { latitude, longitude } );
+}
+
+fetch( 'parks.geojson' )
+  .then( data => data.json() )
+  .then( parks => loadPark( parks.features[ 1 ] ) );

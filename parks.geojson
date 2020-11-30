@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rakiura"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.860107421875,
+          -47.010225655683485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fiordland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.34237670898438,
+          -45.38205472052983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mount Aspiring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.7884521484375,
+          -44.3533143215149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": " Aoraki/Mount Cook"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.16998291015622,
+          -43.618679349825676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.0566864013672,
+          -43.511708955963755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arthur's Pass"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.71493530273435,
+          -42.89508248636672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paparoa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.46018981933594,
+          -42.157550060029784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nelson Lakes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6116943359375,
+          -42.07172346681077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kahurangi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.38922119140625,
+          -41.174519355564435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Abel Tasman"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.96051025390622,
+          -40.91766362458113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Egmont"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.0618896484375,
+          -39.3034872233471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Whanganui"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.9298095703125,
+          -39.3300485529424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tongariro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.5780029296875,
+          -39.25352462727606
+        ]
+      }
+    }
+  ]
+}
