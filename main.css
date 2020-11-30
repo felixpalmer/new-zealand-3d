@@ -1,5 +1,6 @@
 html, body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 h1, h2 {
@@ -8,7 +9,6 @@ h1, h2 {
   width: 100%;
   color: white;
   text-shadow: 1px 2px 4px rgba(2, 3, 11, 0.5);
-  font-family: sans-serif;
   font-weight: 100;
 }
 
@@ -23,12 +23,53 @@ h2 {
   transform: translateX(50%);
 }
 
-#park-list {
-  background: red;
+#title {
+  cursor: pointer;
+}
+
+#park-list-overlay {
+  background: rgba(2, 3, 11, 0.9);
   width: 100%;
   height: 100%;
+  overflow-y: scroll;
   position: absolute;
   z-index: 1000;
-  transform: translateY(100%);
   transition: transform 0.5s ease-in-out;
+}
+
+#park-list-overlay.hidden {
+  transform: translateY(100%);
+}
+
+#park-list-overlay h1 {
+  position: initial;
+}
+
+#park-list {
+  padding: 0;
+}
+
+#park-list li {
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  list-style: none;
+  border-bottom: #666 1px solid;
+}
+
+#park-list p {
+}
+
+#park-list img {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+#park-list p {
+  display: inline;
+  line-height: 80px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 100;
 }

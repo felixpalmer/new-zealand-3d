@@ -1,5 +1,8 @@
 // Initialize the engine with a location and inject into page
 const container = document.getElementById( 'container' );
+const parkList = document.getElementById( 'park-list' );
+const parkListOverlay = document.getElementById( 'park-list-overlay' );
+const title = document.getElementById( 'title' );
 
 // Define API Keys (replace these with your own!)
 const NASADEM_APIKEY = null;
@@ -34,12 +37,31 @@ function loadPark( feature ) {
   const name = feature.properties.name;
   const [longitude, latitude] = feature.geometry.coordinates;
   Procedural.displayLocation( { latitude, longitude } );
-  document.getElementById( 'title' ).innerHTML = name;
+  title.innerHTML = name;
+  parkListOverlay.classList.add( 'hidden' );
 }
+
+// Show list when title clicked
+title.addEventListener( 'click', () => {
+  parkListOverlay.classList.remove( 'hidden' );
+} );
 
 fetch( 'parks.geojson' )
   .then( data => data.json() )
   .then( parks => {
+    parks.features.forEach( park => {
+      const li = document.createElement( 'li' );
+      const p = document.createElement( 'p' );
+      p.innerHTML = park.properties.name;
+      const img = document.createElement( 'img' );
+      img.src = 'images/thumb.png';
+
+      li.appendChild( img );
+      li.appendChild( p );
+      parkList.appendChild( li );
+
+      li.addEventListener( 'click', () => loadPark( park ) );
+    } );
 
     loadPark( parks.features[ 1 ] )
   } );

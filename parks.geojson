@@ -55,7 +55,9 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "name": "Westland Tai Poutini"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
