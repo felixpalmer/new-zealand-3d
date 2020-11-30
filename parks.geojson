@@ -4,7 +4,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Rakiura"
+        "name": "Rakiura",
+        "image": "rakiura"
       },
       "geometry": {
         "type": "Point",
@@ -17,7 +18,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Fiordland"
+        "name": "Fiordland",
+        "image": "fiordland"
       },
       "geometry": {
         "type": "Point",
@@ -30,7 +32,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Mount Aspiring"
+        "name": "Mount Aspiring",
+        "image": "mount-aspiring"
       },
       "geometry": {
         "type": "Point",
@@ -43,7 +46,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": " Aoraki/Mount Cook"
+        "name": "Aoraki / Mount Cook",
+        "image": "aoraki"
       },
       "geometry": {
         "type": "Point",
@@ -56,7 +60,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Westland Tai Poutini"
+        "name": "Westland Tai Poutini",
+        "image": "westland-tai-poutini"
       },
       "geometry": {
         "type": "Point",
@@ -69,7 +74,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Arthur's Pass"
+        "name": "Arthur's Pass",
+        "image": "arthurs-pass"
       },
       "geometry": {
         "type": "Point",
@@ -82,7 +88,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Paparoa"
+        "name": "Paparoa",
+        "image": "paparoa"
       },
       "geometry": {
         "type": "Point",
@@ -95,7 +102,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Nelson Lakes"
+        "name": "Nelson Lakes",
+        "image": "nelson-lakes"
       },
       "geometry": {
         "type": "Point",
@@ -108,7 +116,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kahurangi"
+        "name": "Kahurangi",
+        "image": "kahurangi"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +130,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Abel Tasman"
+        "name": "Abel Tasman",
+        "image": "abel-tasman"
       },
       "geometry": {
         "type": "Point",
@@ -134,7 +144,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Egmont"
+        "name": "Egmont",
+        "image": "egmont"
       },
       "geometry": {
         "type": "Point",
@@ -147,7 +158,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Whanganui"
+        "name": "Whanganui",
+        "image": "whanganui"
       },
       "geometry": {
         "type": "Point",
@@ -160,7 +172,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Tongariro"
+        "name": "Tongariro",
+        "image": "tongariro"
       },
       "geometry": {
         "type": "Point",
