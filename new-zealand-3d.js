@@ -39,4 +39,7 @@ function loadPark( feature ) {
 
 fetch( 'parks.geojson' )
   .then( data => data.json() )
-  .then( parks => loadPark( parks.features[ 1 ] ) );
+  .then( parks => {
+
+    loadPark( parks.features[ 1 ] )
+  } );
