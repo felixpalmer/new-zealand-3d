@@ -27,8 +27,7 @@ Procedural.init( { container, datasource } );
 
 // Configure buttons for UI
 Procedural.setCameraModeControlVisible( true );
-Procedural.setCompassVisible( true );
-Procedural.setUserLocationControlVisible( true );
+Procedural.setCompassVisible( false );
 Procedural.setRotationControlVisible( true );
 Procedural.setZoomControlVisible( true );
 
@@ -46,6 +45,7 @@ title.addEventListener( 'click', () => {
   parkListOverlay.classList.remove( 'hidden' );
 } );
 
+// Fetch park list and populate UI
 fetch( 'parks.geojson' )
   .then( data => data.json() )
   .then( parks => {
@@ -53,15 +53,9 @@ fetch( 'parks.geojson' )
       const li = document.createElement( 'li' );
       const p = document.createElement( 'p' );
       p.innerHTML = park.properties.name;
-      const img = document.createElement( 'img' );
-      img.src = 'images/thumb.png';
-
-      li.appendChild( img );
       li.appendChild( p );
+      li.style.backgroundImage = `url(images/${park.properties.image}.jpg)`;
       parkList.appendChild( li );
-
       li.addEventListener( 'click', () => loadPark( park ) );
     } );
-
-    loadPark( parks.features[ 1 ] )
   } );

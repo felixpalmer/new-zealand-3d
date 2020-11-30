@@ -12,20 +12,26 @@ h1, h2 {
 }
 
 h1 {
-  width: 100%;
   text-align: center;
   font-size: 28px;
 }
 
 h2 {
   font-size: 12px;
-  top: 40px;
-  width: 48%;
-  transform: translateX(105%);
 }
 
 #title {
+  background: #232e32;
+  padding: 6px 12px 18px 12px;
+  top: 25px;
   cursor: pointer;
+}
+
+#subtitle {
+  font-size: 12px;
+  top: 72px;
+  left: 12px;
+  color: #ccc;
 }
 
 #park-list-overlay {
@@ -51,6 +57,16 @@ h2 {
 
 #park-list-overlay h1 {
   position: initial;
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+}
+
+#park-list-overlay h2 {
+  font-size: 12px;
+  top: 40px;
+  width: 48%;
+  transform: translateX(105%);
 }
 
 #park-list {
@@ -64,18 +80,14 @@ h2 {
   cursor: pointer;
   list-style: none;
   border-bottom: #333 1px solid;
-}
-
-#park-list img {
-  width: 80px;
-  height: 80px;
-  float: right;
+  background-size: cover;
 }
 
 #park-list p {
   display: inline;
-  line-height: 80px;
-  padding-left: 28px;
+  line-height: 120px;
   font-size: 20px;
   font-weight: 100;
+  background: #232e32;
+  padding: 6px 10px 6px 40px;
 }
