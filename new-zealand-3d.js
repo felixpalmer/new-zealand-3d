@@ -4,7 +4,7 @@ const parkList = document.getElementById( 'park-list' );
 const parkListOverlay = document.getElementById( 'park-list-overlay' );
 const title = document.getElementById( 'title' );
 
-const NASADEM_APIKEY = '1fddafe22d6604fb1adc14d6cbd881d19';
+const NASADEM_APIKEY = '12c27d08882df417c977cf5af64fd84f0';
 const LINZ_APIKEY = 'd01egend5fdnb7mfr3hms4x08sk';
 if ( !NASADEM_APIKEY || !LINZ_APIKEY ) {
   const error = Error( 'Modify index.html to include API keys' );
